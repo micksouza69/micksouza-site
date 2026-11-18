@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>A Estrada dos Fluentes · Curso de inglês do Mick Souza</title>
+<meta name="description" content="Curso de inglês do zero, em 12 módulos, com o método de entender primeiro e depois falar. Pré-venda do Módulo 01 até 27/11.">
+<link rel="canonical" href="https://www.micksouza.com.br/ingles/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="A Estrada dos Fluentes · Inglês">
+<meta property="og:description" content="Inglês do zero: você entende primeiro, depois fala. Pré-venda do Módulo 01 até 27/11.">
+<meta property="og:url" content="https://www.micksouza.com.br/ingles/">
+<meta property="og:image" content="https://www.micksouza.com.br/ingles/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,500&family=Source+Sans+3:wght@400;500;600;700&display=swap">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}html{scroll-behavior:smooth}@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}</style>
+<style>
+/* Layout: faixas verdes (capa dos slides) alternadas com papel claro; a prova do método é uma mini-aula jogável; a estrada mostra os 12 módulos como marcos de quilômetro; os planos fecham a página. */
+:root{
+  --bg:#f3f6f1; --surface:#ffffff; --ink:#15261d; --muted:#51655a; --line:#d5ded6;
+  --green:#14553a; --green-deep:#0e4330; --on-green:#f4f7f2; --on-green-muted:#b9d0c2;
+  --gold:#e9b537; --gold-ink:#3a2a00; --gold-text:#8a6100; --mist:#e6efe8;
+  --display:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --wrap:1080px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0c1a13; --surface:#12261c; --ink:#e8f0ea; --muted:#9db3a6; --line:#264234;
+  --green:#103f2c; --green-deep:#0b2f21; --on-green:#f1f6f2; --on-green-muted:#a9c4b5;
+  --gold:#ecbb45; --gold-ink:#2e2100; --gold-text:#ecbb45; --mist:#15291f; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0c1a13; --surface:#12261c; --ink:#e8f0ea; --muted:#9db3a6; --line:#264234;
+  --green:#103f2c; --green-deep:#0b2f21; --on-green:#f1f6f2; --on-green-muted:#a9c4b5;
+  --gold:#ecbb45; --gold-ink:#2e2100; --gold-text:#ecbb45; --mist:#15291f; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.1;margin:0;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+.band{background:var(--green);color:var(--on-green)}
+.brand{font-family:var(--display);font-style:italic;font-weight:500;color:var(--gold);font-size:1.05rem;text-decoration:none}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-text)}
+.band .eyebrow{color:var(--gold)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;background:var(--gold);color:var(--gold-ink);font-weight:700;text-decoration:none;padding:.85em 1.4em;border-radius:999px;font-size:1.02rem;border:2px solid transparent;transition:transform .15s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn.small{padding:.5em 1em;font-size:.92rem}
+.btn.ghost{background:transparent;border-color:var(--on-green-muted);color:var(--on-green)}
+@media (prefers-reduced-motion: reduce){.btn{transition:none}.btn:hover{transform:none}}
+
+/* topo */
+.top{padding-block:16px}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px 16px;flex-wrap:wrap}
+.top nav{display:flex;gap:10px;flex-wrap:wrap}
+
+/* capa */
+.hero{padding-block:36px 64px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.5rem,6.2vw,4.4rem);font-weight:700;letter-spacing:-.01em}
+.hero h1 em{font-style:italic;font-weight:500;color:var(--gold)}
+.hero .lead{font-size:1.2rem;color:var(--on-green-muted);max-width:34em;margin-top:20px}
+.hero .presale{display:inline-block;margin-top:22px;background:var(--gold);color:var(--gold-ink);font-weight:700;font-size:.95rem;padding:.45em 1em;border-radius:999px}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 16px;margin-top:22px}
+.hero .facts{color:var(--on-green-muted);font-size:.95rem;margin-top:16px}
+.hero-copy{min-width:0}
+
+/* cartão da aula (imita a página de um slide) */
+.slide{background:var(--green-deep);border:1px solid color-mix(in srgb,var(--gold) 35%,transparent);border-radius:14px;padding:22px;min-width:0}
+.slide .tag{font-size:.8rem;color:var(--on-green-muted)}
+.slide h3{font-size:1.9rem;margin-top:2px}
+.dialog{display:grid;gap:10px;margin-top:18px}
+.say{background:var(--on-green);color:#15261d;border-radius:12px;padding:10px 14px;font-weight:600;max-width:88%}
+.say small{display:block;font-weight:500;color:#51655a;font-size:.78rem}
+.say.r{justify-self:end;background:var(--gold);color:var(--gold-ink)}
+.say.r small{color:#5a4300}
+.slide .hint{margin-top:16px;font-size:.88rem;color:var(--on-green-muted)}
+
+section{padding-block:64px}
+.head{display:grid;gap:10px;max-width:40em;margin-bottom:34px}
+.head h2{font-size:clamp(1.8rem,3.8vw,2.6rem)}
+.head p{color:var(--muted);font-size:1.08rem}
+.band .head p{color:var(--on-green-muted)}
+
+/* as 4 tabelas */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:8px;align-content:start;min-width:0}
+.steps li::before{content:"Tabela " counter(s);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-text)}
+.steps h3{font-size:1.25rem}
+.steps p{color:var(--muted);font-size:.98rem}
+.steps .en{font-family:var(--display);font-style:italic;color:var(--ink);font-size:1rem}
+.after{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;background:var(--mist);border-radius:12px;padding:16px 20px}
+.after b{font-family:var(--display);font-size:1.15rem}
+.after span{color:var(--muted)}
+
+/* frases */
+.phrases{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.me{font-family:var(--display);font-size:clamp(1.25rem,2.4vw,1.6rem);line-height:1.45;border-left:4px solid var(--gold);padding-left:20px}
+.me span{color:var(--gold)}
+.can{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.can li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:baseline}
+.can li::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--gold);transform:translateY(-1px)}
+.can b{font-family:var(--display);font-style:italic;font-weight:500}
+
+/* a estrada */
+.road{position:relative;display:grid;gap:14px}
+.road::before{content:"";position:absolute;left:21px;top:10px;bottom:10px;width:0;border-left:3px dashed var(--gold)}
+.km{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-left:56px}
+.km summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.km summary::-webkit-details-marker{display:none}
+.km summary::before{content:attr(data-km);position:absolute;left:-56px;top:12px;width:44px;height:30px;display:grid;place-items:center;background:var(--green);color:var(--on-green);font-size:.72rem;font-weight:700;border-radius:6px;border:2px solid var(--gold);font-variant-numeric:tabular-nums}
+.km summary h3{font-size:1.2rem}
+.km summary .range{color:var(--muted);font-size:.92rem;font-variant-numeric:tabular-nums}
+.km summary .more{margin-left:auto;font-size:.88rem;font-weight:600;color:var(--gold-text)}
+.km[open] summary .more::after{content:"Fechar"}
+.km:not([open]) summary .more::after{content:"Ver aulas"}
+.km ol{margin:0;padding:0 18px 18px;list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px 22px}
+.km ol li{display:grid;grid-template-columns:2.2em 1fr;gap:6px;border-top:1px solid var(--line);padding-top:8px;font-size:.98rem}
+.km ol li i{font-style:normal;color:var(--muted);font-variant-numeric:tabular-nums}
+.km ol li span{display:block;font-family:var(--display);font-style:italic;color:var(--muted);font-size:.92rem}
+.mods{list-style:none;margin:0 0 0 56px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.mods li{border:1px dashed var(--line);border-radius:10px;padding:12px 14px;color:var(--muted);font-size:.95rem}
+.mods li b{display:block;color:var(--ink);font-family:var(--display);font-size:1.05rem}
+.mods li.next{border-style:solid;border-color:var(--gold)}
+.sub{margin:6px 0 0 56px;color:var(--muted);font-size:.95rem}
+
+/* professor */
+.teacher{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
+.photo{width:180px;aspect-ratio:1;max-width:100%;border-radius:50%;border:3px solid var(--gold);object-fit:cover;display:block;background:var(--green-deep)}
+.teacher p+p{margin-top:12px}
+.teacher p{color:var(--on-green-muted)}
+.teacher h2{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:14px}
+
+/* por dentro */
+.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.strip figure{margin:0;display:grid;gap:6px;min-width:0}
+.strip img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;display:block}
+.strip figcaption{font-size:.9rem;color:var(--muted)}
+.inside{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px}
+.inside div{border-top:3px solid var(--gold);padding-top:12px;display:grid;gap:4px;min-width:0}
+.inside b{font-family:var(--display);font-size:2rem;line-height:1}
+.inside span{color:var(--muted);font-size:.98rem}
+
+/* planos */
+.groups{display:grid;gap:40px}
+.group-title{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;margin-bottom:14px}
+.group-title h3{font-size:1.6rem}
+.group-title span{color:var(--muted);font-size:.98rem}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.plan{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px;display:grid;gap:14px;align-content:start;min-width:0}
+.plan.premium{border:2px solid var(--green)}
+:root[data-theme="dark"] .plan.premium{border-color:var(--gold)}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .plan.premium{border-color:var(--gold)} }
+.plan-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.plan-top h4{font-size:1.45rem}
+.tag5{font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--gold);color:var(--gold-ink);padding:4px 10px;border-radius:6px;white-space:nowrap}
+.price{display:grid;gap:2px}
+.price strong{font-family:var(--display);font-size:2.6rem;line-height:1;font-variant-numeric:tabular-nums}
+.price small{color:var(--muted);font-size:.95rem}
+.plan ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.plan li{padding-left:24px;position:relative}
+.plan li::before{content:"";position:absolute;left:0;top:.6em;width:14px;height:3px;background:var(--gold);border-radius:2px}
+.plan .btn{width:100%;margin-top:4px}
+.btn.outline{background:transparent;border-color:var(--green);color:var(--ink)}
+:root[data-theme="dark"] .btn.outline{border-color:var(--gold)}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .btn.outline{border-color:var(--gold)} }
+.fine{margin-top:18px;color:var(--muted);font-size:.92rem}
+.timeline{list-style:none;margin:36px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.timeline li{border-top:4px solid var(--green);padding-top:10px;display:grid;gap:2px;min-width:0}
+.timeline li:first-child{border-top-color:var(--gold)}
+.timeline time{font-family:var(--display);font-weight:700;font-size:1.5rem;font-variant-numeric:tabular-nums}
+.timeline p{color:var(--muted);font-size:.95rem}
+
+/* dúvidas */
+.faq{display:grid;gap:10px;max-width:46em}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{margin-top:10px;color:var(--muted)}
+
+footer{padding-block:28px;color:var(--on-green-muted);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+
+/* mini-aula */
+.demo{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;display:grid;gap:18px;max-width:760px}
+.demo .bar{display:flex;gap:6px}
+.demo .bar i{flex:1;height:5px;border-radius:3px;background:var(--line)}
+.demo .bar i.on{background:var(--gold)}
+.scene{position:relative;height:150px;border-radius:12px;background:var(--green);overflow:hidden}
+.scene .ground{position:absolute;left:0;right:0;bottom:0;height:34px;background:var(--green-deep)}
+.scene .you{position:absolute;bottom:34px;left:12%;width:26px;height:58px}
+.scene .you::before{content:"";position:absolute;left:5px;top:0;width:16px;height:16px;border-radius:50%;background:var(--gold)}
+.scene .you::after{content:"";position:absolute;left:2px;top:19px;width:22px;height:39px;border-radius:9px 9px 3px 3px;background:var(--gold)}
+.scene .thing{position:absolute;bottom:34px;display:grid;place-items:center;background:var(--on-green);color:#15261d;font-weight:700;letter-spacing:.06em;border-radius:6px 6px 0 0;transition:all .45s ease}
+.scene .thing.near{left:22%;width:118px;height:84px;font-size:.95rem}
+.scene .thing.far{left:74%;width:58px;height:40px;font-size:.55rem;opacity:.85}
+.scene .who{position:absolute;left:12px;top:10px;font-size:.78rem;color:var(--on-green-muted)}
+@media (prefers-reduced-motion: reduce){.scene .thing{transition:none}}
+.line{font-family:var(--display);font-size:1.5rem;font-weight:600;min-height:2.4em}
+.opts{display:flex;flex-wrap:wrap;gap:10px}
+.opts button{font:inherit;font-weight:600;cursor:pointer;border-radius:999px;padding:.65em 1.2em;border:2px solid var(--green);background:transparent;color:var(--ink)}
+.opts button.primary{background:var(--green);color:var(--on-green)}
+.opts button.ok{background:var(--gold);border-color:var(--gold);color:var(--gold-ink)}
+.opts button.no{opacity:.45}
+.verdict{font-weight:600;min-height:1.6em}
+
+/* pilares */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.pillars div{display:grid;gap:8px;align-content:start;border-top:3px solid var(--gold);padding-top:16px;min-width:0}
+.pillars h3{font-size:1.3rem}
+.pillars p{color:var(--on-green-muted)}
+.pillars cite{font-style:normal;font-size:.85rem;color:var(--gold)}
+
+@media (max-width:860px){
+  .hero .wrap,.phrases{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .pillars{grid-template-columns:1fr}
+  .strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .timeline{grid-template-columns:repeat(2,minmax(0,1fr))}
+  section{padding-block:48px}
+}
+@media (max-width:620px){
+  .pair,.inside{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .steps{grid-template-columns:1fr}
+  .teacher{grid-template-columns:1fr;justify-items:start}
+  .km summary .more{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+
+<div class="band">
+  <header class="top"><div class="wrap">
+    <a class="brand" href="#inicio">A Estrada dos Fluentes</a>
+    <nav><a class="btn small ghost" href="#prova">Testar o método</a><a class="btn small" href="#planos">Ver os planos</a></nav>
+  </div></header>
+
+  <div class="hero" id="inicio"><div class="wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">Curso de inglês · 12 módulos · do zero à fluência</p>
+      <h1>Você entende primeiro. <em>Depois fala.</em></h1>
+      <p class="lead">A Estrada dos Fluentes ensina inglês do jeito que a gente aprende uma língua de verdade: vendo a cena, entendendo a frase, repetindo e respondendo. Sem lista de vocabulário e sem decorar regra.</p>
+      <p class="presale">Pré-venda do Módulo 01 até 27/11 · aulas a partir de 01/12</p>
+      <div class="cta">
+        <a class="btn" href="#planos">Ver os planos</a>
+        <a class="btn ghost" href="#prova">Testar o método em 1 minuto</a>
+      </div>
+      <p class="facts">12 módulos · 30 aulas por módulo · cerca de 10 minutos por aula · um quiz depois de cada aula</p>
+    </div>
+    <div class="slide" aria-label="Exemplo de uma aula">
+      <p class="tag">Módulo 01 · Aula 12</p>
+      <h3>Onde fica?</h3>
+      <div class="dialog">
+        <p class="say">Where is the hotel?<small>Stephen, turista, chegando de táxi</small></p>
+        <p class="say r">It's here.<small>João, apontando para a porta</small></p>
+        <p class="say">Where is the bathroom?</p>
+        <p class="say r">It's there.</p>
+      </div>
+      <p class="hint">Você entende pelo que vê na imagem. A tradução quase nunca é necessária.</p>
+    </div>
+  </div></div>
+</div>
+
+<section id="prova"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">A prova</p>
+    <h2>Faça uma mini-aula agora.</h2>
+    <p>Ninguém vai traduzir nada. Olhe a cena, leia a frase e responda no final.</p>
+  </div>
+  <div class="demo">
+    <div class="bar" id="demo-bar"><i></i><i></i><i></i><i></i></div>
+    <div class="scene" aria-hidden="true">
+      <span class="who" id="demo-who"></span>
+      <div class="you"></div>
+      <div class="thing near" id="demo-thing">HOTEL</div>
+      <div class="ground"></div>
+    </div>
+    <p class="line" id="demo-line" aria-live="polite"></p>
+    <div class="opts" id="demo-opts"></div>
+    <p class="verdict" id="demo-verdict" aria-live="polite"></p>
+  </div>
+</div></section>
+
+<div class="band"><section><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Por que funciona</p>
+    <h2>O método junta três ideias da pesquisa sobre como se aprende uma língua.</h2>
+    <p>Cada aula tem quatro tabelas de seis imagens. Cada tabela aplica uma dessas ideias.</p>
+  </div>
+  <div class="pillars">
+    <div><h3>Entender vem antes</h3><p>A gente adquire uma língua quando entende mensagens um pouco acima do que já sabe. Por isso cada aula usa o que veio antes e acrescenta uma coisa nova, sempre apoiada na imagem.</p><cite>Tabelas 1 e 2 · insumo compreensível (Krashen)</cite></div>
+    <div><h3>Falar fixa</h3><p>Produzir a frase em voz alta obriga você a notar o que ainda falta. Por isso toda aula tem pausa para repetir e pausa para responder.</p><cite>Tabelas 3 e 4 · hipótese do output (Swain)</cite></div>
+    <div><h3>Conversa destrava</h3><p>É na pergunta e na resposta que o sentido se ajusta. As frases já chegam em diálogo, e você aprende cedo a dizer "não entendi, pode repetir?".</p><cite>Diálogos em todas as aulas · hipótese da interação (Long)</cite></div>
+  </div>
+</div></section></div>
+
+<section id="metodo"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Como é uma aula</p>
+    <h2>Toda aula segue o mesmo caminho.</h2>
+    <p>Nas duas primeiras tabelas você só escuta e entende. Nas duas últimas você fala.</p>
+  </div>
+  <ol class="steps">
+    <li><h3>Ouvir</h3><p>Seis cenas, uma frase para cada. Você liga o som ao que está vendo.</p><p class="en">I want water.</p></li>
+    <li><h3>Ampliar</h3><p>A mesma frase aparece em conversas, com pergunta e resposta.</p><p class="en">Do you want water? Yes, please.</p></li>
+    <li><h3>Repetir</h3><p>O professor fala, faz uma pausa e você repete em voz alta.</p><p class="en">Repeat the sentence after me.</p></li>
+    <li><h3>Responder</h3><p>Agora a pergunta é para você. Há uma pausa para responder antes de ouvir a resposta.</p><p class="en">Now you answer!</p></li>
+  </ol>
+  <div class="after"><b>Depois da aula: um quiz.</b><span>12 perguntas de múltipla escolha, só com o que você já viu. No fim você vê o resultado e as respostas certas, e pode tentar de novo.</span></div>
+</div></section>
+
+<div class="band"><section><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">O resultado do primeiro módulo</p>
+    <h2>Trinta aulas depois, você se apresenta em inglês.</h2>
+    <p>Quem começa sem saber dizer "hello" termina o Módulo 01 montando esta fala com as próprias informações:</p>
+  </div>
+  <div class="phrases">
+    <p class="me">Hi! My name is <span>(seu nome)</span>. I'm <span>(sua idade)</span>. I'm from <span>(sua cidade)</span>. I live in <span>(onde mora)</span>. I'm a <span>(sua profissão)</span>. I like <span>(algo)</span>. I speak Portuguese and a little English.</p>
+    <ul class="can">
+      <li><p>Perguntar onde ficam os lugares: <b>Where is the port?</b></p></li>
+      <li><p>Entender e dizer preços: <b>How much is it? It's twenty reais.</b></p></li>
+      <li><p>Pedir com educação: <b>Can I have some water, please?</b></p></li>
+      <li><p>Destravar a conversa: <b>Sorry, I don't understand. Can you repeat that, please?</b></p></li>
+      <li><p>Dizer para onde vai e quando: <b>The boat is on Monday at ten.</b></p></li>
+    </ul>
+  </div>
+</div></section></div>
+
+<section id="estrada"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">A estrada</p>
+    <h2>12 módulos. O primeiro já está pronto.</h2>
+    <p>Cada módulo tem 30 aulas e continua de onde o anterior parou.</p>
+  </div>
+  <div class="road">
+    <details class="km" open><summary data-km="M 01"><h3>Módulo 01 · Primeiras conversas</h3><span class="range">30 aulas + 30 quizzes · abre em 01/12</span><span class="more"></span></summary>
+      <ol>
+        <li><i>01–06</i><p>Cumprimentos e apresentações<span>Hi! I'm Ana. What's your name?</span></p></li>
+        <li><i>07–12</i><p>Coisas, pessoas e lugares<span>This is my bag. Where is the hotel?</span></p></li>
+        <li><i>13–17</i><p>Números e dinheiro<span>How much is it? It's twenty reais.</span></p></li>
+        <li><i>18–23</i><p>Querer, ter, gostar<span>I want açaí. She likes coffee.</span></p></li>
+        <li><i>24–28</i><p>Viagem na prática<span>Can you repeat that, please?</span></p></li>
+        <li><i>29–30</i><p>Tempo e integração<span>The boat is on Monday at ten.</span></p></li>
+      </ol></details>
+    <p class="sub">Próximos trechos da estrada:</p>
+    <ul class="mods">
+      <li class="next"><b>Módulo 02</b>Sai em 15/01/2027</li>
+      <li><b>Módulo 03</b>Viagem pelo mundo</li>
+      <li><b>Módulo 04</b>Em breve</li>
+      <li><b>Módulo 05</b>Em breve</li>
+      <li><b>Módulo 06</b>Em breve</li>
+      <li><b>Módulo 07</b>Em breve</li>
+      <li><b>Módulo 08</b>Em breve</li>
+      <li><b>Módulo 09</b>Em breve</li>
+      <li><b>Módulo 10</b>Em breve</li>
+      <li><b>Módulo 11</b>Em breve</li>
+      <li><b>Módulo 12</b>Em breve</li>
+    </ul>
+  </div>
+</div></section>
+
+<div class="band"><section><div class="wrap teacher">
+  <img class="photo" src="img/mick.jpg" alt="Foto do professor Mick Souza">
+  <div>
+    <p class="eyebrow">Quem criou o método</p>
+    <h2>Mick Souza</h2>
+    <p>Sou de Barcelos, no Amazonas, e estudo Letras – Língua Inglesa na Universidade do Estado do Amazonas. Aprendi a falar inglês trabalhando: fui intérprete de turistas estrangeiros na pesca esportiva do Rio Negro.</p>
+    <p>A Estrada dos Fluentes nasceu do que eu estudo na faculdade e do que vi funcionar na prática. Primeiro entender, depois repetir, depois falar.</p>
+  </div>
+</div></section></div>
+
+<section id="planos"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Pré-venda do Módulo 01 · até 27/11</p>
+    <h2>Escolha o seu plano</h2>
+    <p>Pagamento único, sem renovação. Cartão em até 12x, Pix, boleto ou PayPal, com garantia de 7 dias pela Hotmart.</p>
+  </div>
+
+  <div class="strip">
+    <figure><img src="img/aula01.jpg" alt="Capa da Aula 01, Hello!" loading="lazy"><figcaption>Aula 01 · Hello!</figcaption></figure>
+    <figure><img src="img/aula12.jpg" alt="Capa da Aula 12, Onde fica?" loading="lazy"><figcaption>Aula 12 · Onde fica?</figcaption></figure>
+    <figure><img src="img/aula18.jpg" alt="Capa da Aula 18, Eu quero" loading="lazy"><figcaption>Aula 18 · Eu quero</figcaption></figure>
+    <figure><img src="img/aula28.jpg" alt="Capa da Aula 28, Indo para..." loading="lazy"><figcaption>Aula 28 · Indo para...</figcaption></figure>
+  </div>
+  <div class="inside">
+    <div><b>30</b><span>aulas em vídeo, com pausas para você repetir e responder</span></div>
+    <div><b>30</b><span>quizzes, um depois de cada aula</span></div>
+    <div><b>30</b><span>materiais do aluno em PDF, com as frases e exercícios</span></div>
+  </div>
+
+  <div class="groups" style="margin-top:44px">
+    <div>
+      <div class="group-title"><h3>Mensal</h3><span>Acesso de 01/12 a 15/02/2027 · Módulos 01 e 02</span></div>
+      <div class="pair">
+        <article class="plan">
+          <div class="plan-top"><h4>Standard mensal</h4></div>
+          <div class="price"><strong>R$ 49,90</strong><small>ou 12x de R$ 5,16 no cartão</small></div>
+          <ul>
+            <li>Módulos 01 e 02 (o 02 sai em 15/01)</li>
+            <li>Aulas, quizzes e PDFs do Módulo 01</li>
+            <li>Acesso até 15/02/2027</li>
+          </ul>
+          <a class="btn outline" href="https://pay.hotmart.com/M108427651O?off=3w4unxar" target="_blank" rel="noopener">Quero o Standard mensal</a>
+        </article>
+        <article class="plan premium">
+          <div class="plan-top"><h4>Premium mensal</h4><span class="tag5">5 vagas</span></div>
+          <div class="price"><strong>R$ 199,90</strong><small>ou 12x de R$ 20,67 no cartão</small></div>
+          <ul>
+            <li>Tudo do Standard mensal</li>
+            <li>3 conversas individuais de 20 minutos</li>
+            <li>1 mês grátis: acesso até 15/02/2027</li>
+          </ul>
+          <a class="btn" href="https://pay.hotmart.com/M108427651O?off=crqa2s0b" target="_blank" rel="noopener">Quero o Premium mensal</a>
+        </article>
+      </div>
+    </div>
+    <div>
+      <div class="group-title"><h3>Anual</h3><span>1 ano + 2 meses grátis, a partir de 01/12 · Todos os módulos, assim que lançados</span></div>
+      <div class="pair">
+        <article class="plan">
+          <div class="plan-top"><h4>Standard anual</h4></div>
+          <div class="price"><strong>R$ 598,00</strong><small>ou 12x de R$ 61,85 no cartão</small></div>
+          <ul>
+            <li>Todos os módulos, assim que lançados</li>
+            <li>Começa pelo Módulo 01: aulas, quizzes e PDFs</li>
+            <li>Acesso até 01/02/2028</li>
+          </ul>
+          <a class="btn outline" href="https://pay.hotmart.com/M108427651O?off=vuputvjm" target="_blank" rel="noopener">Quero o Standard anual</a>
+        </article>
+        <article class="plan premium">
+          <div class="plan-top"><h4>Premium anual</h4><span class="tag5">5 vagas</span></div>
+          <div class="price"><strong>R$ 1.198,00</strong><small>ou 12x de R$ 123,90 no cartão</small></div>
+          <ul>
+            <li>Tudo do Standard anual</li>
+            <li>12 conversas individuais de 20 minutos, 1 por mês</li>
+            <li>Acesso até 01/02/2028</li>
+          </ul>
+          <a class="btn" href="https://pay.hotmart.com/M108427651O?off=3i0gduxw" target="_blank" rel="noopener">Quero o Premium anual</a>
+        </article>
+      </div>
+    </div>
+  </div>
+  <p class="fine">Os valores parcelados no cartão têm acréscimo da Hotmart. O pagamento é feito na página segura da Hotmart.</p>
+
+  <ol class="timeline">
+    <li><time>27/11</time><p>Último dia da pré-venda com estes preços.</p></li>
+    <li><time>01/12</time><p>Abrem as aulas e os quizzes do Módulo 01.</p></li>
+    <li><time>15/01</time><p>Sai o Módulo 02.</p></li>
+    <li><time>15/02</time><p>Termina o acesso dos planos mensais.</p></li>
+  </ol>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="head"><p class="eyebrow">Dúvidas</p><h2>Antes de começar</h2></div>
+  <div class="faq">
+    <details><summary>Preciso saber alguma coisa de inglês?</summary><p>Não. A Aula 01 do Módulo 01 começa em "Hello" e cada aula apresenta uma coisa nova de cada vez.</p></details>
+    <details><summary>Quanto tempo leva cada aula?</summary><p>Cerca de 10 minutos. Dá para fazer uma por dia.</p></details>
+    <details><summary>Quando eu começo?</summary><p>As aulas abrem no dia 01/12. Comprando na pré-venda, você garante o preço e o conteúdo libera na sua área de membros nessa data.</p></details>
+    <details><summary>Vou ter que decorar gramática?</summary><p>Não. Você aprende pelas frases e pelas imagens. Quando uma explicação ajuda, ela é curta e em português.</p></details>
+    <details><summary>Preciso comprar os 12 módulos?</summary><p>Não. Cada plano dá acesso a todos os módulos lançados durante o seu período de acesso. Nos planos mensais, são os Módulos 01 e 02. Nos anuais, todos os que saírem em 1 ano + 2 meses, até 01/02/2028.</p></details>
+    <details><summary>É uma assinatura?</summary><p>Não. Todos os planos são pagamento único, sem renovação automática.</p></details>
+    <details><summary>O que são as conversas do Premium?</summary><p>Conversas individuais de 20 minutos para praticar a fala. O Premium mensal tem 3 e o Premium anual tem 12, uma por mês. Cada Premium tem só 5 vagas.</p></details>
+    <details><summary>Serve para crianças?</summary><p>Sim. O curso é indicado a partir de 8 anos. De 6 a 7 anos, com um adulto acompanhando. A compra é feita sempre por uma pessoa responsável.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia pela Hotmart para pedir o reembolso.</p></details>
+  </div>
+</div></section>
+
+<div class="band"><footer><div class="wrap">
+  <span class="brand">A Estrada dos Fluentes</span>
+  <span>Curso de inglês em 12 módulos · Mick Souza · Pagamento seguro pela Hotmart</span>
+</div></footer></div>
+
+<script>
+(function(){
+  var steps=[
+    {who:"Stephen, turista, chega de táxi",thing:"HOTEL",pos:"near",line:"Where is the hotel? — It's here."},
+    {who:"No restaurante",thing:"BATHROOM",pos:"far",line:"Where is the bathroom? — It's there."},
+    {who:"No porto de Manaus",thing:"BOAT",pos:"near",line:"Where is the boat? — It's here."},
+    {who:"Agora é com você",thing:"AIRPORT",pos:"far",line:"Where is the airport?",ask:true}
+  ];
+  var i=0,$=function(id){return document.getElementById(id)};
+  var bar=$("demo-bar").children,thing=$("demo-thing"),line=$("demo-line"),opts=$("demo-opts"),verdict=$("demo-verdict"),who=$("demo-who");
+  function btn(t,cls,fn){var b=document.createElement("button");b.type="button";b.textContent=t;if(cls)b.className=cls;b.addEventListener("click",fn);opts.appendChild(b);return b}
+  function show(){
+    var s=steps[i];
+    for(var k=0;k<bar.length;k++)bar[k].className=k<=i?"on":"";
+    who.textContent=s.who;thing.textContent=s.thing;thing.className="thing "+s.pos;
+    line.textContent=s.line;opts.innerHTML="";verdict.textContent="";
+    if(!s.ask){btn(i===0?"Entendi, próxima cena":"Próxima cena","primary",function(){i++;show()});return}
+    var a=btn("It's here.","",function(){pick(a,b,false)}),b=btn("It's there.","",function(){pick(b,a,true)});
+  }
+  function pick(chosen,other,right){
+    if(right){
+      chosen.className="ok";other.className="no";chosen.disabled=other.disabled=true;
+      verdict.textContent="Isso. Você acabou de responder em inglês sem ninguém traduzir here nem there.";
+      btn("Fazer de novo","",function(){i=0;show()});
+    }else{
+      chosen.className="no";chosen.disabled=true;
+      verdict.textContent="Olhe a cena: o aeroporto está perto ou longe?";
+    }
+  }
+  show();
+})();
+</script>
+</body>
+</html>
